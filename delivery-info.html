@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - Gardens</title>
+    <title>Delivery Information - Gardens</title>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="pages.css">
 </head>
 <body>
     <button class="theme-toggle" id="themeToggle"><span class="sun-icon">☀️</span><span class="moon-icon">🌙</span></button>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
         <nav><a href="index.html" class="logo">Gardens</a><button class="menu-toggle">☰</button>
             <ul class="nav-links">
@@ -21,16 +22,47 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main-content">
         <section class="page-hero">
             <div class="page-hero-content">
-                <h1>Frequently Asked Questions</h1>
-                <p>Quick answers to common questions</p>
+                <h1>Delivery Information</h1>
+                <p>Everything you need to know about receiving your Gardens box</p>
             </div>
         </section>
+        
         <section class="resource-content">
-            <h3>Information Coming Soon</h3>
-            <p>This page contains important information about our services. For immediate assistance, please <a href="contact.html">contact us</a>.</p>
+            <div class="delivery-illustration">
+                <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=600&h=400&fit=crop" alt="Delivery Process" style="max-width: 100%; border-radius: 16px;">
+            </div>
+            <h3>How Delivery Works</h3>
+            <div class="delivery-process">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <h4>Order Processing</h4>
+                    <p>Your order is carefully prepared within 1-2 business days</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <h4>Quality Check</h4>
+                    <p>Each box is inspected to ensure premium quality</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <h4>Shipping</h4>
+                    <p>Secure packaging and tracking number sent via email</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">4</div>
+                    <h4>Delivery</h4>
+                    <p>Arrives at your door ready to plant and enjoy!</p>
+                </div>
+            </div>
+            <h3>Delivery Times</h3>
+            <ul>
+                <li><strong>Europe:</strong> 5-7 business days (2-3 express)</li>
+                <li><strong>Asia:</strong> 7-10 business days (3-5 express)</li>
+                <li><strong>New Zealand:</strong> 3-5 business days (1-2 express)</li>
+            </ul>
             <a href="index.html" class="back-button">← Back to Home</a>
         </section>
     </main>
